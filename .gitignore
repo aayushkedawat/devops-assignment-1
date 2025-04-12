@@ -1,2 +1,5 @@
 __pycache__
 *.pyc
+jenkins_file
+jenkins_file.pub
+Dockerfile
