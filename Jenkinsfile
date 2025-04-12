@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-github-username>/my-cicd-project.git' // Replace with your repository URL
+                git branch: 'main', url: 'https://github.com/aayushkedawat/devops-assignment-1.git'
             }
         }
         stage('Build') {
