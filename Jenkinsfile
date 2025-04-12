@@ -11,7 +11,7 @@ pipeline {
             agent { label 'local-agent' } // Run this stage on the specified agent
             steps {
                 echo "Building the application..."
-                sh 'python app.py' // Simulate a build step
+                sh 'python3 app.py' // Simulate a build step
             }
         }
         stage('Test') {
